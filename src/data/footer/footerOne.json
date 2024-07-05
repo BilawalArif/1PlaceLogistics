@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "Expand Your Business With CodeBox!"
+    },
+    {
+        "id": 2,
+        "title": "Home",
+        "url": "/",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Home",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "About",
+        "url": "/about-us",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About",
+                "url": "/about-us"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Contact",
+        "url": "/contact",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Contact",
+                "url": "/contact"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FAQ's",
+        "url": "/faqs",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "FAQ's",
+                "url": "/faqs"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Stay With Us.",
+        "subtitle": "2000+ Our clients are subscribe Around the World"
+    }
+]
