@@ -11,168 +11,168 @@ import AboutTwo from "../elements/about/AboutTwo";
 import TeamOne from "../elements/team/TeamOne";
 import Copyright from "../common/footer/Copyright";
 
-const devTeamData = [
-  {
-    image: "hananBabar.jpg",
-    name: "Hanan Babar",
-    designation: " Web Team Lead",
-    location: "Lahore, Punjab",
-    description:
-      "As a Web Team Lead, I oversee web development projects and promote team collaboration to deliver high-quality solutions.",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "awaisMajeed.jpg",
-    name: "Awais Majeed",
-    designation: "React Developer",
-    location: "Lahore, Punjab",
-    description:
-      "Experienced React developer skilled in building dynamic and responsive web applications using React.js",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "mohsinAli.jpeg",
-    name: "Mohsin Ali",
-    designation: "Full Stack Developer (MERN + AWS)",
-    location: "Lahore, Punjab",
-    description: "Experienced in Web Applications development and AWS Services",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "arhamIrfan.jpg",
-    name: "Arham Irfan",
-    designation: "MERN Stack Developer",
-    location: "Lahore, Punjab",
-    description:
-      "Experienced full stack developer specializing in web applications",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "bilawal.jpg",
-    name: "Bilawal Arif",
-    designation: "MERN Stack Developer",
-    location: "Lahore, Punjab",
-    description:
-      "Experienced full stack developer specializing in web applications",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "umarFarooq.jpg",
-    name: "Umar Farooq",
-    designation: "React Developer",
-    location: "Lahore, Punjab",
-    description:
-      "Experienced React developer skilled in building dynamic and responsive web applications.",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "zainbintanveer.jpg",
-    name: "Zain Tanveer",
-    designation: "Full Stack Developer (REACT + .NET)",
-    location: "Lahore, Punjab",
-    description:
-      "Experienced full stack developer specializing in scalable web applications.",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "bilal.jpg",
-    name: "Muhammad Bilal",
-    designation: "Senior Software Engineer",
-    location: "Lahore, Punjab",
-    description:
-      "Full Stack Wizard: Crafting Seamless Web Solutions with Django & .Net Core",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-];
-const bdTeamData = [
-  {
-    image: "zainJaved.jpg",
-    name: "Zain Sarmad",
-    designation: "Business Development Executive",
-    location: "Lahore, Punjab",
-    description:
-      "A business developer who knows how to nurture and grow direct sales. I like making new connections with a hunger to always learn new things.",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "maham.jpg",
-    name: "Maham Aslam",
-    designation: "Business Developer",
-    location: "Faisalabad, Punjab",
-    description:
-      "Myself Maham Aslam from Faisalabad working as a Business Developer. My major is Textile Designing and I am working here to learn new things apart from my field.",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-  {
-    image: "wajahat.jpg",
-    name: "Wajahat Rauf",
-    designation: "Business Developer",
-    location: "Lahore, Punjab",
-    description:
-      "A business developer who knows how to nurture and grow direct sales. I like making new connections with a hunger to always learn new things.",
-    // socialNetwork: [
-    //   {
-    //     icon: <FiLinkedin />,
-    //     url: "#",
-    //   },
-    // ],
-  },
-];
+// const devTeamData = [
+//   {
+//     image: "hananBabar.jpg",
+//     name: "Hanan Babar",
+//     designation: " Web Team Lead",
+//     location: "Lahore, Punjab",
+//     description:
+//       "As a Web Team Lead, I oversee web development projects and promote team collaboration to deliver high-quality solutions.",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "awaisMajeed.jpg",
+//     name: "Awais Majeed",
+//     designation: "React Developer",
+//     location: "Lahore, Punjab",
+//     description:
+//       "Experienced React developer skilled in building dynamic and responsive web applications using React.js",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "mohsinAli.jpeg",
+//     name: "Mohsin Ali",
+//     designation: "Full Stack Developer (MERN + AWS)",
+//     location: "Lahore, Punjab",
+//     description: "Experienced in Web Applications development and AWS Services",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "arhamIrfan.jpg",
+//     name: "Arham Irfan",
+//     designation: "MERN Stack Developer",
+//     location: "Lahore, Punjab",
+//     description:
+//       "Experienced full stack developer specializing in web applications",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "bilawal.jpg",
+//     name: "Bilawal Arif",
+//     designation: "MERN Stack Developer",
+//     location: "Lahore, Punjab",
+//     description:
+//       "Experienced full stack developer specializing in web applications",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "umarFarooq.jpg",
+//     name: "Umar Farooq",
+//     designation: "React Developer",
+//     location: "Lahore, Punjab",
+//     description:
+//       "Experienced React developer skilled in building dynamic and responsive web applications.",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "zainbintanveer.jpg",
+//     name: "Zain Tanveer",
+//     designation: "Full Stack Developer (REACT + .NET)",
+//     location: "Lahore, Punjab",
+//     description:
+//       "Experienced full stack developer specializing in scalable web applications.",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "bilal.jpg",
+//     name: "Muhammad Bilal",
+//     designation: "Senior Software Engineer",
+//     location: "Lahore, Punjab",
+//     description:
+//       "Full Stack Wizard: Crafting Seamless Web Solutions with Django & .Net Core",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+// ];
+// const bdTeamData = [
+//   {
+//     image: "zainJaved.jpg",
+//     name: "Zain Sarmad",
+//     designation: "Business Development Executive",
+//     location: "Lahore, Punjab",
+//     description:
+//       "A business developer who knows how to nurture and grow direct sales. I like making new connections with a hunger to always learn new things.",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "maham.jpg",
+//     name: "Maham Aslam",
+//     designation: "Business Developer",
+//     location: "Faisalabad, Punjab",
+//     description:
+//       "Myself Maham Aslam from Faisalabad working as a Business Developer. My major is Textile Designing and I am working here to learn new things apart from my field.",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+//   {
+//     image: "wajahat.jpg",
+//     name: "Wajahat Rauf",
+//     designation: "Business Developer",
+//     location: "Lahore, Punjab",
+//     description:
+//       "A business developer who knows how to nurture and grow direct sales. I like making new connections with a hunger to always learn new things.",
+//     // socialNetwork: [
+//     //   {
+//     //     icon: <FiLinkedin />,
+//     //     url: "#",
+//     //   },
+//     // ],
+//   },
+// ];
 
 const AboutUs = () => {
   return (
     <>
-      <SEO title="CodeBox || About Us" />
+      <SEO title="1PlaceLogistics || About Us" />
       <main className="page-wrapper">
         {/* <HeaderTopNews /> */}
         <HeaderOne
@@ -185,7 +185,7 @@ const AboutUs = () => {
           className="slider-area slider-style-1 height-850 bg_image"
           data-black-overlay="7"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-03.jpeg)`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-013.jpg)`,
           }}
         >
           <div className="container">
@@ -218,17 +218,17 @@ const AboutUs = () => {
                 style={{ display: "flex", margin: "auto" }}
               >
                 <div className="content">
-                  <h3 className="title">Your Software Talent Partner</h3>
+                  <h3 className="title">Your Logistics Talent Partner</h3>
                 </div>
               </div>
               <div className="col-lg-6">
                 <p className="mb--10">
-                  We specialize in connecting businesses with experienced
-                  software professionals to help them build and maintain their
-                  software applications. Our team of pre-vetted and highly
-                  qualified software engineers has expertise in a range of
-                  technologies, including web development, mobile development,
-                  and cloud computing.
+                  OnePlace Lgistics provides dispatching services for
+                  owner-operators and truck fleets since 2015. We suggest not
+                  only searching for loads but an array of services for drivers
+                  and carrier companies including billing, document management,
+                  and paperwork, broker and shipper communications, SAFETY DOT
+                  compliance, and much more.
                 </p>
               </div>
             </div>
@@ -237,7 +237,7 @@ const AboutUs = () => {
         {/* End Service Area  */}
 
         {/* Start Brand Area  */}
-        <div className="rwt-brand-area pb--60 pt--30">
+        {/* <div className="rwt-brand-area pb--60 pt--30">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 mt--10">
@@ -245,7 +245,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Brand Area  */}
 
         <Separator />
@@ -323,7 +323,7 @@ const AboutUs = () => {
         <Separator />
 
         {/* Start Elements Area  */}
-        <div className="rwt-team-area rn-section-gap">
+        {/* <div className="rwt-team-area rn-section-gap">
           <div className="container">
             <div className="row mb--20">
               <div className="col-lg-12">
@@ -342,12 +342,12 @@ const AboutUs = () => {
               teamData={devTeamData}
             />
           </div>
-        </div>
+        </div> */}
         {/* End Elements Area  */}
         <Separator />
 
         {/* Start Elements Area  */}
-        <div className="rwt-team-area rn-section-gap">
+        {/* <div className="rwt-team-area rn-section-gap">
           <div className="container">
             <div className="row mb--20">
               <div className="col-lg-12">
@@ -366,7 +366,7 @@ const AboutUs = () => {
               teamData={bdTeamData}
             />
           </div>
-        </div>
+        </div> */}
         {/* End Elements Area  */}
 
         <FooterFour />

@@ -6,36 +6,33 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
   {
     icon: <FiActivity />,
-    title: "Web Development",
-    description: "Crafting Dynamic Websites",
+    title: "Truck Dispatching",
+    description: "Keeping Your Business Moving",
   },
   {
     icon: <FiCast />,
-    title: "Design & Creative",
-    description: "Inspiring Visual Solutions",
+    title: "Billing",
+    description: "Truck Driver Accounting Services",
   },
   {
     icon: <FiMap />,
-    title: "App Development",
-    description: "Building Innovative Mobile Apps",
+    title: "IFTA",
+    description: "Straightforward route to IFTA Fuel Report",
   },
   {
     icon: <FiActivity />,
-    title: "Dynamic Websites",
-    description:
-      "Crafting dynamic and engaging websites to captivate your audience.",
+    title: "Factoring service",
+    description: "Assistance in Selecting a Reliable Partner",
   },
   {
     icon: <FiCast />,
-    title: "Mobile Applications",
-    description:
-      "Creating innovative mobile apps that provide seamless user experiences.",
+    title: "Rate Negotiation",
+    description: "Best Pay Rate on Every Job",
   },
   {
     icon: <FiMap />,
-    title: "Blockchain",
-    description:
-      "Leveraging blockchain technology for secure and transparent solutions.",
+    title: "SAFETY / DOT Compliance",
+    description: "FMCSA/DoT requirements",
   },
 ];
 

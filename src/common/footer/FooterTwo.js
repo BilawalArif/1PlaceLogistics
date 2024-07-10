@@ -17,7 +17,6 @@ const indexTwoLink = footerIntemTwo.quicklink;
 const indexThreeLink = footerIntemThree.quicklink;
 const indexFourLink = footerIntemFour.quicklink;
 
-
 const FooterTwo = () => {
   return (
     <>
@@ -31,7 +30,7 @@ const FooterTwo = () => {
                 <div className="rn-footer-widget">
                   <h4 className="title">{footerIntemOne.title}</h4>
                   <div className="inner">
-                    <ul className="footer-link link-hover" >
+                    <ul className="footer-link link-hover">
                       {indexOneLink.map((data, index) => (
                         <li key={index}>
                           <Link to={`${data.url}`}>{data.text}</Link>
@@ -105,7 +104,7 @@ const FooterTwo = () => {
                     <ul className="social-icon social-default justify-content-start">
                       <li>
                         <a
-                          href="https://www.facebook.com/profile.php?id=100094355751415&mibextid=eBUYbo"
+                          href="https://www.facebook.com/profile.php?id=61561223264105"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -114,7 +113,7 @@ const FooterTwo = () => {
                       </li>
                       <li>
                         <a
-                          href="https://www.instagram.com/codebox.us/"
+                          href="https://www.instagram.com/accounts/onetap/?next=%2F"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

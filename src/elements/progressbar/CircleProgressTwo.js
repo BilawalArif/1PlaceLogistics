@@ -12,18 +12,18 @@ import TrackVisibility from "react-on-screen";
 const progressData = [
   {
     id: 1,
-    title: "Design",
+    title: "Loads Booked",
     percantage: 92,
     subtitle: "Innovative Visual Solutions",
     strokeColor: "#0f0f11",
-    strokePath: "#2e5aec",
+    strokePath: "#f46b17",
     strokeLinecap: "round",
     strokeWidth: 2,
   },
 
   {
     id: 2,
-    title: "Web",
+    title: "Average Gross Revenue",
     percantage: 97,
     subtitle: "Crafting Digital Experiences",
     strokeColor: "#0f0f11",
@@ -34,7 +34,7 @@ const progressData = [
 
   {
     id: 3,
-    title: "Application",
+    title: "Mln Lbs Dispatched",
     percantage: 95,
     subtitle: "Creating User-Centric Apps",
     strokeColor: "#0f0f11",
@@ -44,11 +44,11 @@ const progressData = [
   },
   {
     id: 4,
-    title: "Development",
+    title: "Clients",
     percantage: 99,
     subtitle: "Building Next-Gen Software",
     strokeColor: "#0f0f11",
-    strokePath: "#20d913d5",
+    strokePath: "#f7970f",
     strokeLinecap: "round",
     strokeWidth: 13,
   },
