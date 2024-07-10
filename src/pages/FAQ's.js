@@ -5,13 +5,11 @@ import FooterFour from "../common/footer/FooterFour";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import AccordionOne from "../elements/accordion/AccordionOne";
 import Copyright from "../common/footer/Copyright";
-import TabOne from "../elements/tab/TabOne";
-import TabTwo from "../elements/tab/TabTwo";
 
 const FAQ = () => {
   return (
     <>
-      <SEO title="1PlaceLogistics || Truck Types" />
+      <SEO title="CodeBox || FAQ's" />
       <main className="page-wrapper">
         {/* <HeaderTopNews /> */}
         <HeaderOne
@@ -19,7 +17,7 @@ const FAQ = () => {
           HeaderSTyle="header-transparent"
         />
 
-        {/* <div className="rn-accordion-area rn-section-gap">
+        <div className="rn-accordion-area rn-section-gap">
           <div className="container">
             <div className="row">
               <div className="col-lg-10 offset-lg-1">
@@ -37,27 +35,6 @@ const FAQ = () => {
                 <AccordionOne customStyle="rn-accordion-04" />
               </div>
             </div>
-          </div>
-        </div> */}
-        <div className="rwt-tab-area rn-section-gap">
-          <div className="container">
-            <div className="row mb--40">
-              <div className="col-lg-12">
-                <SectionTitle
-                  textAlign="text-center"
-                  radiusRounded=""
-                  subtitle="You can Change Easily"
-                  title="Truck Types"
-                  description=""
-                />
-              </div>
-            </div>
-            <TabOne />
-          </div>
-        </div>
-        <div className="rwt-tab-area rn-section-gap">
-          <div className="container">
-            <TabTwo />
           </div>
         </div>
         {/* <Separator /> */}

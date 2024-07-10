@@ -4,20 +4,20 @@ import TrackVisibility from "react-on-screen";
 
 const Data = [
   {
-    countNum: 5000,
-    countTitle: "Loads Booked",
+    countNum: 10,
+    countTitle: "Happy Clients",
   },
   {
-    countNum: 7500,
-    countTitle: "Average Gross Revenue",
+    countNum: 10,
+    countTitle: "Dedicated Employees",
   },
   {
-    countNum: 58,
-    countTitle: "Mln Lbs Dispatched",
+    countNum: 13,
+    countTitle: "Effective Solutions",
   },
   {
-    countNum: 190,
-    countTitle: "Clients",
+    countNum: 15,
+    countTitle: "Innovative Softwares",
   },
 ];
 const CounterUpFour = ({ textALign, counterStyle, column }) => {

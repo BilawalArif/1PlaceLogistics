@@ -169,7 +169,7 @@ const Nav = () => {
         <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <Link to="/trucktypes">Truck Types</Link>
+        <Link to="/faqs">FAQ's</Link>
       </li>
     </ul>
   );

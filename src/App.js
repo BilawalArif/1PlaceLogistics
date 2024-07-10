@@ -31,7 +31,7 @@ const App = () => {
             component={Contact}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/trucktypes"}`}
+            path={`${process.env.PUBLIC_URL + "/faqs"}`}
             exact
             component={FAQ}
           />

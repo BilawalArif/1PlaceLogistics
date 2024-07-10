@@ -13,6 +13,8 @@ import TeamOne from "../elements/team/TeamOne";
 import ServiceOne from "../elements/service/ServiceOne";
 import CounterUpFour from "../elements/counterup/CounterUpFour";
 import Copyright from "../common/footer/Copyright";
+import ServiceThree from "../elements/service/ServiceThree";
+import ServiceFive from "../elements/service/ServiceFive";
 
 // var BlogListData = BlogClassicData.slice(0, 3);
 
@@ -47,13 +49,13 @@ const teamData = [
 
 const BannerData = [
   {
-    image: `/images/bg/bg-image-03.jpg`,
+    image: `/images/bg/bg-image-01.jpg`,
     title: "Empowering Your Online Presence",
     description:
       "We elevate businesses through captivating websites and digital experiences.",
   },
   {
-    image: `/images/bg/bg-image-04.jpg`,
+    image: `/images/bg/bg-image-01.jpg`,
     title: "Digital Excellence Made Affordable",
     description:
       "We Craft Websites that Speak Your Brand's Language and Drive Success.",
@@ -63,7 +65,7 @@ const BannerData = [
 const Startup = () => {
   return (
     <>
-      <SEO title="1PlaceLogistics || Home" />
+      <SEO title="CodeBox || Home" />
       <main className="page-wrapper">
         <HeaderOne
           btnStyle="btn-small btn-icon round"
@@ -194,7 +196,7 @@ const Startup = () => {
 
         <Separator />
         {/* Start Elements Area  */}
-        {/* <div className="rwt-advance-tab-area rn-section-gap">
+        <div className="rwt-advance-tab-area rn-section-gap">
           <div className="container">
             <div className="row mb--40">
               <div className="col-lg-12">
@@ -209,11 +211,11 @@ const Startup = () => {
             </div>
             <AdvanceTabOne />
           </div>
-        </div> */}
+        </div>
         {/* End Elements Area  */}
 
         {/* Start Elements Area  */}
-        {/* <div className="rwt-team-area rn-section-gap">
+        <div className="rwt-team-area rn-section-gap">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -232,7 +234,7 @@ const Startup = () => {
               teamData={teamData}
             />
           </div>
-        </div> */}
+        </div>
         {/* End Elements Area  */}
 
         <FooterTwo />
