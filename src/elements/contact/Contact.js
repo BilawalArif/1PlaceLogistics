@@ -7,7 +7,7 @@ import ContactOne from "./ContactOne";
 const Contact = () => {
   return (
     <>
-      <SEO title="CodeBox || Contact" />
+      <SEO title="1PlaceLogistics || Contact" />
       <Layout className="page-wrapper">
         <div className="main-content">
           {/* Start Contact Area  */}

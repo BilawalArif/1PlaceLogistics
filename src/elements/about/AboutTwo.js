@@ -12,7 +12,7 @@ const AboutTwo = () => {
             <div className="thumbnail">
               <img
                 className="w-100"
-                src={`${process.env.PUBLIC_URL}images/about/1692807204649.jpeg`}
+                src={`${process.env.PUBLIC_URL}images/about/3.png`}
                 alt="About Images"
               />
             </div>
@@ -38,11 +38,12 @@ const AboutTwo = () => {
                   animateOnce={true}
                 >
                   <p>
-                    Welcome to Codebox, the leading provider of senior software
-                    engineers and software teams to companies in the USA. We
-                    specialize in connecting businesses with experienced
-                    software professionals to help them build and maintain their
-                    software applications.
+                    1Place Logistics provides dispatching services for
+                    owner-operators and truck fleets since 2015. We suggest not
+                    only searching for loads but an array of services for
+                    drivers and carrier companies including billing, document
+                    management, and paperwork, broker and shipper
+                    communications, SAFETY DOT compliance, and much more.
                   </p>
 
                   <ul className="list-icon">
@@ -58,21 +59,21 @@ const AboutTwo = () => {
                         <FiCheck />
                       </span>{" "}
                       We offer ongoing support throughout the duration of the
-                      project
+                      order
                     </li>
                     <li>
                       <span className="icon">
                         <FiCheck />
                       </span>{" "}
-                      We manage the onboarding process
+                      Drive, deliver, earn; we’ll do all the rest for you.
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="icon">
                         <FiCheck />
                       </span>{" "}
                       We take pride in the relationships we build with our
                       clients and our team of software professionals.{" "}
-                    </li>
+                    </li> */}
                   </ul>
                 </ScrollAnimation>
                 <ScrollAnimation
